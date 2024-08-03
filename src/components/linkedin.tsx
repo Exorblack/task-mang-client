@@ -26,7 +26,7 @@ const Linkedin = () => {
           <DialogHeader>
             <DialogTitle>Enter Your LinkedIn Profile</DialogTitle>
             <DialogDescription>
-              Make changes to your profile here. Click get data when you're done.
+              Add your LinkedIn Account here. Click get data when you're done.
             </DialogDescription>
           </DialogHeader>
           <form onSubmit={handleGetData} className="grid gap-4 py-4">
@@ -57,7 +57,7 @@ const Linkedin = () => {
               />
             </div>
             <DialogFooter>
-              <Button type="submit" variant='contained'>Get your data</Button>
+              <Button type="submit" variant='contained'>Get data</Button>
             </DialogFooter>
           </form>
         </DialogContent>
